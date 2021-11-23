@@ -1,4 +1,20 @@
 {
+  "account_group": "cglcloud",
+  "account_key": "cdpdev",
+  "mgmt_role_id": "xyz",
+  "admin_role_id": "zyx",
+  "ci_role_id": "xyz",
+  "spoke_admin_role_id": "xyz",
+  "spoke_role_id": "xyz",
+  "global_region": "us-east-1",
+  "account_id": "111111111111",
+  "bootstrap_stack": "bootstrap",
+  "config_stack": "bootstrap-aws-config",
+  "assume_role_arn": "arn:aws:iam::111111111111:role/cglcloud/cdpdev/admin/admin_bootstrap",
+  "assume_role_external_id": "12345678",
+  "log_bucket": "hub-bootstrap-logbucket-1ajgim6hrdyyy",
+  "config_bucket": "hub-bootstrap-configbucket-1oc3kqz8akc0o",
+  "aws_key_pair_id": "share-bastion-us-east-1-v1",
   "platform_tags": {
     "AppName": "infra",
     "ITOwnerEmail": "platform email",
@@ -8,23 +24,23 @@
   "team_tags": {
     "AppName": "infra",
     "AppEnvironment": "dev",
-    "ITOwnerEmail": "our email",
+    "ITOwnerEmail": "team email",
     "BillingCode": "905447",
     "TaggingVersion": "1.0.0"
   },
-  "platform_vpc_id": "test",
+  "platform_vpc_id": "vpc-005ea179",
   "platform_vpc_cidr": "172.31.31.31/16",
   "platform_private_subnet_ids": [
-    "subnet-864a8fdx",
+    "subnet-864a8fdy",
     "subnet-20cefb4y",
-    "subnet-7b18d75z"
+    "subnet-7b18d75y"
   ],
   "platform_private_subnet_arns": [
-    "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-864a8fdx",
-    "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-20cefb4y",
-    "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-7b18d75z"
+    "arn:aws:ec2:us-east-1:611181293678:subnet/subnet-864a8fdy",
+    "arn:aws:ec2:us-east-1:611181293678:subnet/subnet-20cefb4y",
+    "arn:aws:ec2:us-east-1:611181293678:subnet/subnet-7b18d75y"
   ],
-  "team": "some team",
+  "team": "team xyz",
   "ec2_region": "us-east-1b",
   "ecs_task_default_memory": 8192,
   "ecs_task_default_cpu": 4096,
