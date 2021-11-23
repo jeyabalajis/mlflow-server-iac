@@ -1,0 +1,33 @@
+{
+  "platform_tags": {
+    "AppName": "infra",
+    "ITOwnerEmail": "platform email",
+    "BillingCode": "905448",
+    "TaggingVersion": "1.0.0"
+  },
+  "team_tags": {
+    "AppName": "infra",
+    "AppEnvironment": "dev",
+    "ITOwnerEmail": "our email",
+    "BillingCode": "905447",
+    "TaggingVersion": "1.0.0"
+  },
+  "platform_vpc_id": "test",
+  "platform_vpc_cidr": "172.31.31.31/16",
+  "platform_private_subnet_ids": [
+    "subnet-864a8fdx",
+    "subnet-20cefb4y",
+    "subnet-7b18d75z"
+  ],
+  "platform_private_subnet_arns": [
+    "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-864a8fdx",
+    "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-20cefb4y",
+    "arn:aws:ec2:us-east-1:111111111111:subnet/subnet-7b18d75z"
+  ],
+  "team": "some team",
+  "ec2_region": "us-east-1b",
+  "ecs_task_default_memory": 8192,
+  "ecs_task_default_cpu": 4096,
+  "db_username": "dbuser",
+  "mysql_default_port": 3306
+}
